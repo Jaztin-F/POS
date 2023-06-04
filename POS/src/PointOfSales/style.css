@@ -1,0 +1,15 @@
+ /* Justine Francisco IT-2A*/
+ 
+#imageBox{
+    -fx-border-style: solid solid solid solid;
+    -fx-border-width: 1;
+    -fx-border-color: grey;
+    -fx-padding: 0px;
+    -fx-background-color: #fff;
+    
+} 
+ 
+.button:hover{
+    -fx-text-fill: #0E86D4;
+  
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane fx:id="ScenePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="367.0" style="-fx-background-color: #FFFF;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PointOfSales.DessertController">
+   <children>
+      <Line endX="-101.0" endY="385.0" layoutX="101.0" layoutY="15.0" startX="-101.0" startY="-15.0" />
+      <Line endX="-101.0" endY="385.0" layoutX="468.0" layoutY="15.0" startX="-101.0" startY="-15.0" />
+      <StackPane layoutX="14.0" layoutY="14.0" prefHeight="113.0" prefWidth="158.0" style="-fx-border-color: #2d2d2d;">
+         <children>
+            <ImageView fitHeight="101.0" fitWidth="157.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/Softdrinks.jpg" />
+               </image>
+            </ImageView>
+            <Label alignment="BOTTOM_LEFT" prefHeight="17.0" prefWidth="159.0" style="-fx-background-color: rgba(0,0,0,0.7);" text="70.00" textFill="WHITE" StackPane.alignment="BOTTOM_LEFT" />
+            <Label alignment="TOP_LEFT" prefHeight="17.0" prefWidth="160.0" style="-fx-background-color: rgba(52, 45, 113,0.7);" text="Soft Drinks" textFill="WHITE" StackPane.alignment="TOP_LEFT" />
+         </children>
+      </StackPane>
+      <StackPane layoutX="190.0" layoutY="14.0" prefHeight="113.0" prefWidth="158.0" style="-fx-border-color: #2d2d2d;">
+         <children>
+            <ImageView fitHeight="129.0" fitWidth="156.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/Shake.jpg" />
+               </image>
+            </ImageView>
+            <Label alignment="TOP_LEFT" prefHeight="17.0" prefWidth="160.0" style="-fx-background-color: rgba(52, 45, 113,0.7);" text="Shake" textFill="WHITE" StackPane.alignment="TOP_LEFT" />
+            <Label alignment="BOTTOM_LEFT" prefHeight="17.0" prefWidth="158.0" style="-fx-background-color: rgba(0,0,0,0.7);" text="100.00" textFill="WHITE" StackPane.alignment="BOTTOM_LEFT" />
+         </children>
+      </StackPane>
+      <StackPane layoutX="15.0" layoutY="141.0" prefHeight="130.0" prefWidth="158.0" style="-fx-border-color: #2d2d2d;">
+         <children>
+            <ImageView fitHeight="111.0" fitWidth="128.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/Coffee.jpg" />
+               </image>
+            </ImageView>
+            <Label alignment="TOP_LEFT" prefHeight="17.0" prefWidth="160.0" style="-fx-background-color: rgba(52, 45, 113,0.7);" text="Coffee" textFill="WHITE" StackPane.alignment="TOP_LEFT" />
+            <Label alignment="BOTTOM_LEFT" prefHeight="17.0" prefWidth="163.0" style="-fx-background-color: rgba(0,0,0,0.7);" text="90.00" textFill="WHITE" StackPane.alignment="BOTTOM_LEFT" />
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>
